@@ -7,8 +7,6 @@ let diceImages = ["images/dice1.png", "images/dice2.png", "images/dice3.png", "i
 function addDiceRoll(){
     let x = Math.floor(Math.random() * 6);
     let y = Math.floor(Math.random() * 6);
-    let diceImage1 = diceImages[x];
-    let diceImage2 = diceImages[y];
     let result;
     if(x>y){
         result = "🚩Player 1 Wins";
