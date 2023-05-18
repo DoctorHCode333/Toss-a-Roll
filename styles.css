@@ -1,0 +1,82 @@
+#container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.coin {
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+button {
+	box-shadow:inset 0px 0px 0px 0px #ff0000;
+	background:linear-gradient(to bottom, #ff0505 5%, #ff5454 100%);
+	background-color:#ff0505;
+	border-radius:25px;
+  border-width: 0px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:5rem;
+	font-weight:bold;
+	padding:12px 28px;
+  margin: 10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff0000;
+  white-space:nowrap
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #ff5454 5%, #ff0505 100%);
+	background-color:#ff5454;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 2%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
